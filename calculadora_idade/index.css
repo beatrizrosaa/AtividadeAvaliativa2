@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Fonte base do desafio (Poppins) */
+:root {
+  --app-font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--app-font-family);
+  background-color: #f0f0f0; /* bg-gray-100 */
+}
+
+/* Remove spinners dos inputs number - Webkit */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
