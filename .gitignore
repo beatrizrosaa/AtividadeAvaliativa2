@@ -1,0 +1,9 @@
+Dependências e ficheiros de build
+node_modules
+dist
+build
+.env
+
+Ficheiros do sistema operativo
+.DS_Store
+Thumbs.db

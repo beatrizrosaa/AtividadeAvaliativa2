@@ -1,0 +1,16 @@
+{"name": "atividade-avaliativa-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "cd calculadora_idade && npm install && npm run build",
+    "dev": "cd calculadora_idade && npm run dev"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "react-hook-form": "^7.62.0",
+    "tailwindcss": "^4.1.13"
+  }
+}
+
+
