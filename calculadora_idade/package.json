@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && VERCEL_BUILD=true mv build dist",
+    "build": "vite build",
     "start": "vite start",
     "typecheck": "react-router typegen && tsc"
   },
