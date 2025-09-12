@@ -8,5 +8,7 @@ export default defineConfig({
     tailwindcss(),
     reactRouter(),
     tsconfigPaths()
-  ],
+  ],build: {
+    outDir: "dist",
+  }
 });
