@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "postbuild": "node scripts/copy-index.js",
+  "build": "vite build",
     "start": "vite start",
     "typecheck": "react-router typegen && tsc"
   },
