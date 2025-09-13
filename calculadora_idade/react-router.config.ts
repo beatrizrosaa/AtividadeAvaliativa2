@@ -2,8 +2,6 @@ import type { Config } from "@react-router/dev/config";
 // import { vercelPreset } from '@react-router/dev/presets/vercel';
 
 export default {
-  // Config options...
-  // Server-side render by default, to enable SPA mode set this to `false`
-  ssr: true,
-  //  presets: [vercelPreset()],
+  // Modo SPA: desabilita SSR para gerar build estático em dist
+  ssr: false,
 } satisfies Config;

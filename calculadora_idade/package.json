@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "postbuild": "node scripts/copy-index.js",
     "start": "vite start",
     "typecheck": "react-router typegen && tsc"
   },
